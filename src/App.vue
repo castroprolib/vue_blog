@@ -3,7 +3,11 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
-    <Home/>   
+    <NavbarFront/>  
+
+    <Home/>
+
+    <Footer/>   
 
   </div>
 </template>
@@ -11,6 +15,13 @@
 <script>
   //hay que importar todos los compenentes aqui
 //import HelloWorld from './components/HelloWorld.vue'
+
+
+// navegacion front
+import NavbarFront from './components/NavbarFront.vue'
+import Footer from './components/Footer.vue'
+
+
 import Home from './components/Home.vue'
 //import Blog from './components/Blog.vue'
 //import About from './components/About.vue'
@@ -19,7 +30,9 @@ import Home from './components/Home.vue'
 export default {
   name: 'app',
   components: {   
-    Home
+    Home,
+    NavbarFront,
+    Footer
 
   }
 }
