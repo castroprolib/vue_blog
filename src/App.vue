@@ -10,7 +10,9 @@
     <Footer/>   
 
   </div>
+
 </template>
+
 
 <script>
   //hay que importar todos los compenentes aqui
@@ -39,6 +41,9 @@ export default {
 </script>
 
 <style>
+ /*importo boostrap*/
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
