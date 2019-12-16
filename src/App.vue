@@ -3,9 +3,17 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
+    <router-view name="blog"></router-view>
+
     <NavbarFront/>  
 
     <Home/>
+
+    <blog/>
+
+    <about/>
+
+    <contact/>
 
     <Footer/>   
 
@@ -25,23 +33,26 @@ import Footer from './components/Footer.vue'
 
 
 import Home from './components/Home.vue'
-//import Blog from './components/Blog.vue'
-//import About from './components/About.vue'
-//import Contact from './components/Contact.vue'
+import Blog from './components/Blog.vue'
+import About from './components/About.vue'
+import Contact from './components/Contact.vue'
 
 export default {
   name: 'app',
   components: {   
     Home,
     NavbarFront,
-    Footer
+    Footer,
+    Blog,
+    About,
+    Contact
 
   }
 }
 </script>
 
 <style>
- /*importo boostrap*/
+/*importo boostrap*/
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 #app {

@@ -1,13 +1,20 @@
 <template>
   <div class="contact">
-    <h1></h1>
+    <h1>{{nombre}}</h1>
     
   </div>
 </template>
 
 <script>
 export default {
-  name: 'Contact'
+  name: 'Contact',
+  data(){
+    return{
+      nombre: 'contacto'
+    }
+  }
+  
+
   
 }
 </script>
