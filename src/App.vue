@@ -1,19 +1,21 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
+   <!--  <img alt="Vue logo" src="./assets/logo.png"> -->
     <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
 
-    <router-view name="blog"></router-view>
+    <!-- <router-view name="blog"></router-view> -->
 
-    <NavbarFront/>  
+    <NavbarFront/> 
 
-    <Home/>
+    <router-view/> 
 
-    <blog/>
+   <!--  <Home/> -->
 
-    <about/>
+   <!--  <blog/> -->
 
-    <contact/>
+    <!-- <about/> -->
+
+  <!--   <contact/>  -->
 
     <Footer/>   
 
@@ -32,20 +34,20 @@ import NavbarFront from './components/NavbarFront.vue'
 import Footer from './components/Footer.vue'
 
 
-import Home from './components/Home.vue'
-import Blog from './components/Blog.vue'
-import About from './components/About.vue'
-import Contact from './components/Contact.vue'
+// import Home from './components/Home.vue'
+// import Blog from './components/Blog.vue'
+// import About from './components/About.vue'
+// import Contact from './components/Contact.vue'
 
 export default {
   name: 'app',
   components: {   
-    Home,
+    // Home,
     NavbarFront,
-    Footer,
-    Blog,
-    About,
-    Contact
+    Footer
+    // Blog,
+    // About,
+    // Contact
 
   }
 }
