@@ -31,20 +31,20 @@
 
 							<div class="carousel-inner">
 								<div class="carousel-item active">
-									<img class="d-block img-fluid" src="">
+									<img class="d-block img-fluid" src="public/img/1.jpg">
 									<div class="carousel-caption d-none d-md-block">
 										<h3 class="home-text">Desarrollo web</h3>
 										<!-- <a href="#" class="btn btn-primary">Read More</a> -->
 									</div>
 								</div>
 								<div class="carousel-item">
-									<img class="d-block img-fluid" src="">
+									<img class="d-block img-fluid" src="assets/img/2.jpg">
 									<div class="carousel-caption d-none d-md-block">
 										<h3 class="home-text">Animes</h3>
 									</div>
 								</div>
 								<div class="carousel-item">
-									<img class="d-block img-fluid" src="">
+									<img class="d-block img-fluid" src="assets/img/3.jpg">
 									<div class="carousel-caption d-none d-md-block">
 										<h3 class="home-text">Videojuegos</h3>
 									</div>
